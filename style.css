@@ -4,10 +4,12 @@
 
 body{
     background-color: black;
+text-align: center;
 }
 
 h1{
     color: white;
+    margin-bottom: 30px;
 }
 
 .ball{
@@ -16,4 +18,9 @@ h1{
     height: 100px;
     background-color: rgb(222, 90, 121);
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
 }
