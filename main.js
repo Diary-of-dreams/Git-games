@@ -1,6 +1,6 @@
 'use strict'
 
-function onBallClick(elBall) {
+function onBallClick(elBall, maxDiameter) {
     elBall.style.backgroundColor = getRandomColor()
     elBall.offsetWidth
     console.log(elBall.offsetWidth)
@@ -10,7 +10,7 @@ function onBallClick(elBall) {
     elBall.style.width = randomSize
     elBall.style.height = randomSize 
     elBall.innerHTML = randomSize
-    if (elBall.offsetWidth > 400) {
+    if (elBall.offsetWidth > maxDiameter) {
         elBall.style.width = 100 + 'px'
         elBall.style.height = 100 + 'px'
         elBall.innerHTML = elBall.style.width
