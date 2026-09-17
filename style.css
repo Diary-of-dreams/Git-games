@@ -5,6 +5,7 @@
 body {
     background-color: black;
     text-align: center;
+    
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
 .ball {
     border-radius: 50%;
     width: 100px;
-    height: 100px;
+    aspect-ratio: 1;
     background-color: rgb(222, 90, 121);
     margin: auto;
     display: flex;
@@ -29,9 +30,22 @@ h1 {
 
 .ball2 {
     width: 100px;
-    height: 100px;
+    aspect-ratio: 1;
     border-radius: 50%;
     background-color: green;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.ball3 {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-color: rgb(64, 81, 192);
     cursor: pointer;
     display: flex;
     justify-content: center;
