@@ -1,6 +1,7 @@
 'use strict'
 
 function onBallClick(elBall) {
+    elBall.style.backgroundColor = getRandomColor()
     elBall.offsetWidth
     console.log(elBall.offsetWidth)
 
